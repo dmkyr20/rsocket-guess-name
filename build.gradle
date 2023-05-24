@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
+        }
+    }
+    dependencies {
+        classpath("io.freefair.gradle:lombok-plugin:8.0.1")
+    }
+}
+
+subprojects {
+    apply plugin: 'io.freefair.lombok'
+    apply plugin: 'java'
+
+    group = 'person.dmkyr20.education.rsocket.guessnumber'
+    version = '1.0-SNAPSHOT'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+        testImplementation platform('org.junit:junit-bom:5.9.1')
+        testImplementation 'org.junit.jupiter:junit-jupiter'
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}

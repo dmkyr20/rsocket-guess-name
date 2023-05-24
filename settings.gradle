@@ -1,0 +1,5 @@
+rootProject.name = 'RSocketGuessANumberGame'
+include 'ng-client'
+include 'ng-server'
+include 'ng-models'
+
