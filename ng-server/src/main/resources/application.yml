@@ -1,0 +1,4 @@
+game:
+  number:
+    min: 0
+    max: 10

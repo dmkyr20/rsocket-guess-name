@@ -30,3 +30,9 @@ subprojects {
         useJUnitPlatform()
     }
 }
+
+//project(':ng-server') {
+//    dependencies {
+//        implementation project(':ng-models')
+//    }
+//}
