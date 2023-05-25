@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2ee1b1-a9e9-4d5c-88a5-8de891f8d752" name="Changes" comment="WIP Main logic">
-      <change afterPath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/PayloadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/api/Routs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/ValidationModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-server/src/test/java/person/dmkyr20/education/rsocket/guessnumber/server/GameControllerTest.java" afterDir="false" />
+    <list default="true" id="0e2ee1b1-a9e9-4d5c-88a5-8de891f8d752" name="Changes" comment="WIP First working version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ng-client/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/Models.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/Models.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ng-server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-server/src/main/java/person/dmkyr20/education/rsocket/guessnumber/server/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-server/src/main/java/person/dmkyr20/education/rsocket/guessnumber/server/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ng-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +250,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684922925326</updated>
-      <workItem from="1684922926449" duration="25722000" />
+      <workItem from="1684922926449" duration="27788000" />
     </task>
     <task id="LOCAL-00001" summary="WIP Main logic">
       <created>1684928866705</created>
@@ -271,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684928866705</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="WIP First working version">
+      <created>1684997699711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684997699711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +274,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="WIP Main logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP Main logic" />
+    <MESSAGE value="WIP First working version" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP First working version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
