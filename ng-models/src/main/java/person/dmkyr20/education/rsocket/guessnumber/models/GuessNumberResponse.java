@@ -1,8 +1,11 @@
 package person.dmkyr20.education.rsocket.guessnumber.models;
 
-import lombok.Value;
+import lombok.*;
 
-@Value
+@Data
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class GuessNumberResponse {
     String message;
 }

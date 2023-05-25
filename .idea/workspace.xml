@@ -4,31 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2ee1b1-a9e9-4d5c-88a5-8de891f8d752" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/Models.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-server/src/main/java/person/dmkyr20/education/rsocket/guessnumber/server/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0e2ee1b1-a9e9-4d5c-88a5-8de891f8d752" name="Changes" comment="WIP Main logic">
+      <change afterPath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/PayloadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/api/Routs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/ValidationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-server/src/test/java/person/dmkyr20/education/rsocket/guessnumber/server/GameControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ng-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ng-client/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/ClientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ng-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-client/src/test/java/person/dmkyr20/eduaction/rsocket/guessnumber/ClientApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-models/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ng-models/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/modules/GuessNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-client/src/main/java/person/dmkyr20/eduaction/rsocket/guessnumber/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/GuessNumberResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/Models.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-models/src/main/java/person/dmkyr20/education/rsocket/guessnumber/models/Models.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ng-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ng-server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-server/src/main/java/person/dmkyr20/education/rsocket/guessnumber/server/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-server/src/main/java/person/dmkyr20/education/rsocket/guessnumber/server/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-server/src/main/java/person/dmkyr20/education/rsocket/guessnumber/server/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ng-server/src/main/java/person/dmkyr20/education/rsocket/guessnumber/server/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ng-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -38,6 +36,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -55,7 +56,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -80,19 +83,41 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/dmytrokyrychkov/Projects/Education/RSocketGuessANumberGame",
+    "last_opened_file_path": "/Users/dmytrokyrychkov/Projects/Education/RSocketGuessANumberGame/ng-server/src/main/java/person/dmkyr20/education/rsocket/guessnumber/server/testing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2625448",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ng-server/src/main/java/person/dmkyr20/education/rsocket/guessnumber/server/testing" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="person.dmkyr20.education.rsocket.guessnumber.models" />
+      <recent name="person.dmkyr20.education.rsocket.guessnumber.server.testing" />
+      <recent name="person.dmkyr20.education.rsocket.guessnumber.server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="person.dmkyr20.education.rsocket.guessnumber.server.testing" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="person.dmkyr20.eduaction.rsocket.guessnumber.client.Main" />
@@ -107,6 +132,111 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameControllerTest.shouldGetSameValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":ng-server:test" />
+            <option value="--tests" />
+            <option value="&quot;person.dmkyr20.education.rsocket.guessnumber.server.GameControllerTest.shouldGetSameValue&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MathControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":ng-server:test" />
+            <option value="--tests" />
+            <option value="&quot;person.dmkyr20.education.rsocket.guessnumber.server.testing.MathControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MathControllerTest.fireAndForget" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":ng-server:test" />
+            <option value="--tests" />
+            <option value="&quot;person.dmkyr20.education.rsocket.guessnumber.server.testing.MathControllerTest.fireAndForget&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MathControllerTest.requestResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":ng-server:test" />
+            <option value="--tests" />
+            <option value="&quot;person.dmkyr20.education.rsocket.guessnumber.server.testing.MathControllerTest.requestResponse&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="RSocketGuessANumberGame.ng-server.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="person.dmkyr20.education.rsocket.guessnumber.server.ServerApplication" />
@@ -117,6 +247,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.GameControllerTest.shouldGetSameValue" />
+        <item itemvalue="Gradle.MathControllerTest.fireAndForget" />
+        <item itemvalue="Gradle.MathControllerTest" />
+        <item itemvalue="Gradle.MathControllerTest.requestResponse" />
       </list>
     </recent_temporary>
   </component>
@@ -128,11 +262,89 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684922925326</updated>
-      <workItem from="1684922926449" duration="5804000" />
+      <workItem from="1684922926449" duration="25722000" />
     </task>
+    <task id="LOCAL-00001" summary="WIP Main logic">
+      <created>1684928866705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684928866705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WIP Main logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP Main logic" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.9/29f56137b41bb83d7f85b974d89cb973ad7772d1/spring-core-6.0.9-sources.jar!/org/springframework/core/codec/StringDecoder.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.9/29f56137b41bb83d7f85b974d89cb973ad7772d1/spring-core-6.0.9-sources.jar!/org/springframework/core/codec/ByteArrayDecoder.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.9/29f56137b41bb83d7f85b974d89cb973ad7772d1/spring-core-6.0.9-sources.jar!/org/springframework/core/codec/ByteBufferDecoder.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.9/29f56137b41bb83d7f85b974d89cb973ad7772d1/spring-core-6.0.9-sources.jar!/org/springframework/core/codec/DataBufferDecoder.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.9/29f56137b41bb83d7f85b974d89cb973ad7772d1/spring-core-6.0.9-sources.jar!/org/springframework/core/codec/Netty5BufferDecoder.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.9/29f56137b41bb83d7f85b974d89cb973ad7772d1/spring-core-6.0.9-sources.jar!/org/springframework/core/codec/NettyByteBufDecoder.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.9/29f56137b41bb83d7f85b974d89cb973ad7772d1/spring-core-6.0.9-sources.jar!/org/springframework/core/codec/ResourceDecoder.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/6.0.9/5e175be04a419e85ecd234ab6c875afc192b0bb6/spring-messaging-6.0.9-sources.jar!/org/springframework/messaging/rsocket/DefaultRSocketRequester.java</url>
+          <line>279</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/6.0.9/5e175be04a419e85ecd234ab6c875afc192b0bb6/spring-messaging-6.0.9-sources.jar!/org/springframework/messaging/rsocket/DefaultRSocketRequester.java</url>
+          <line>296</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ng-server/src/test/java/person/dmkyr20/education/rsocket/guessnumber/server/testing/MathControllerTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ng-server/src/test/java/person/dmkyr20/education/rsocket/guessnumber/server/GameControllerTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/6.0.7/daf790160728191f6708f94bc535d3b044e802d3/spring-messaging-6.0.7-sources.jar!/org/springframework/messaging/rsocket/DefaultRSocketRequesterBuilder.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
